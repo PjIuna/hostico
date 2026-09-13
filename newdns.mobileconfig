@@ -28,11 +28,11 @@
 			<key>PayloadUUID</key>
 			<string>BF6EDA5F-2B11-4559-8249-28DB1689552A</string>
 			<key>PayloadDisplayName</key>
-			<string>AppleJr Anti Revoke</string>
+			<string>Anti Revoke PajamaRoom</string>
 			<key>PayloadDescription</key>
 			<string>No ads and no revoke for downloading PajamaRoom.</string>
 			<key>PayloadOrganization</key>
-			<string>AppleJr</string>
+			<string>PajamaRoom</string>
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
