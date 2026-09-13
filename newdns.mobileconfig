@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadIdentifier</key>
+	<string>net.applejr.stabledns.6e973105-0fc4-4802-9c75-81fe11d93bb3</string>
+	<key>PayloadUUID</key>
+	<string>6E973105-0FC4-4802-9C75-81FE11D93BB3</string>
+	<key>PayloadDisplayName</key>
+	<string>PajamaRoom Anti Ad &amp; Revoke DNS</string>
+	<key>PayloadDescription</key>
+	<string>No ads and no revoke for downloading PajamaRoom.</string>
+	<key>PayloadOrganization</key>
+	<string>PajamaRoom</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>net.applejr.dns.global.bf6eda5f-2b11-4559-8249-28db1689552a</string>
+			<key>PayloadUUID</key>
+			<string>BF6EDA5F-2B11-4559-8249-28DB1689552A</string>
+			<key>PayloadDisplayName</key>
+			<string>AppleJr Anti Revoke</string>
+			<key>PayloadDescription</key>
+			<string>No ads and no revoke for downloading PajamaRoom.</string>
+			<key>PayloadOrganization</key>
+			<string>AppleJr</string>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+					<string>2606:4700:4700::1111</string>
+					<string>2606:4700:4700::1001</string>
+				</array>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
